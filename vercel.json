@@ -1,0 +1,15 @@
+{
+  "functions": {
+    "pages/api/**.js": {
+      "maxDuration": 30
+    }
+  },
+  "env": {
+    "LIVEKIT_API_KEY": "@livekit-api-key",
+    "LIVEKIT_API_SECRET": "@livekit-api-secret",
+    "OPENAI_API_KEY": "@openai-api-key",
+    "CARTESIA_API_KEY": "@cartesia-api-key",
+    "DEEPGRAM_API_KEY": "@deepgram-api-key",
+    "MONGODB_URI": "@mongodb-uri"
+  }
+}
