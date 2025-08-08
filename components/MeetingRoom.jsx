@@ -1,7 +1,6 @@
 import { useEffect, useState, useCallback } from 'react';
 import { useRouter } from 'next/router';
-import { LiveKitRoom, VideoConference, useToken } from '@livekit/components-react';
-
+import { LiveKitRoom, VideoConference } from "@livekit/components-react";
 const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 
 export default function MeetingRoom({ roomName, participantName }) {
